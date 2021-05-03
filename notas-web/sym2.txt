@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=egG4yPJjq4M
+
+
+https://symfony.com/doc/current/bundles/EasyAdminBundle/crud.html
+
+https://symfony.com/doc/current/cloud/getting-started.html
+
+https://github.com/ByronSilvaOlvera/symfonyby.git
+
+

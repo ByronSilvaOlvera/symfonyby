@@ -1,0 +1,46 @@
+
+// Compose 
+
+composer create-project symfony/website-skeleton #SITIO completo
+
+composer create-project symfony/website-skeleton curso-symfony ^4.4.0
+composer create-project symfony/website-skeleton curso-symfony ^5.*
+
+
+composer create-project symfony/skeleton  # CRDU
+
+## servidorm local normal
+composer require symfony/apache-pack
+
+##
+
+ORM 
+
+## solo atributos 
+php bin/console doctrine:mapping:import App\Entity annotation --path=src/Entity
+
+## setter getter
+php bin/console make:entity --regenerate App
+
+## CRUD
+php bin/console make:crud
+
+## LEVANTAR EL SERVIDOR
+symfony server:start
+
+
+
+
+echo "# symfonyby" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ByronSilvaOlvera/symfonyby.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/ByronSilvaOlvera/symfonyby.git
+git branch -M main
+git push -u origin main
